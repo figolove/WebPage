@@ -1,0 +1,120 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("../img/large.jpg");
+    height: 100%;
+}
+
+#navStyle{
+    background-color:#fff;
+    background-color:rgba(0,0,0,0.1);
+}
+
+#publicBoard *{
+    background-color:rgba(0,0,0,0);
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row{
+    padding-left: 5px;
+}
+
+.element {
+   .center-block();
+}
+
+#navbarHeader{
+    padding-top: 8px;
+    padding-left: 0px;
+}
+
+.nav-right{
+    background-color: #c4e3f3;
+    border-radius: 8px;;
+}
+
+#navRight li{
+    padding-right: 8px;
+}
+#dropdownMenu2,#dropdownMenu3{
+    border: 0;
+}
+
+#publicBoard ul p{
+    padding-top: 23px;
+}
+
+.board-item{
+    background-color: #e2e4e6;
+    margin: 5px;
+}
+
+#sortable{
+    margin-left: 5px;
+}
+
+#sortable div div ol ul{
+    margin-left: -36px;
+}
+
+
+.text-right{
+    margin-top: 25px;
+}
+
+.list-group-item{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#searchForm{
+    width: 800px;
+    transition: width 1s;
+}
+
+#searchForm:hover{
+    width: 1200px;
+}
+
+#myModal{
+    margin-left:200px ;
+    margin-top:50px;
+    width:1000px;
+    background-color: #fff;
+}
+
+#effect {
+    width: 600px;
+    height: 100px;
+}
+
+.pop-over{
+    z-index:1051;
+}
+
+#dueDateDlg{
+    margin-top: 330px;
+    height: 350px;
+}
+.MenuContent{
+    position: absolute;
+    right: -300px;
+    top: 50px;
+    background-color: #f6f6f6;
+    width: 300px;
+    height: 100%;
+}
+
+#addList{
+    border: 1px solid #bce8f1;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
