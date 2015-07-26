@@ -208,4 +208,8 @@ $(function() {
     $(".click-del").on('click',function(){
        $(this).parent().parent().parent().parent().parent().hide();
     });
+
+    $('#start').on('click',function(){
+       $(this).toggleClass("btn-class");
+    });
 });

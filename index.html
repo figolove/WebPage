@@ -20,8 +20,9 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <div id="navbarHeader" class=" navbar-collapse dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    <strong>Boards</strong>
+                <button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: #bce8f1;border: none">
+                    <span class="header-btn-icon icon-lg icon-board light" style="margin-top: 10px;"></span>
+                    <span><strong>&nbsp;&nbsp;&nbsp;&nbsp;Boards</strong></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><a href="#">Action</a></li>
@@ -46,19 +47,20 @@
                     </div>
                 </form>
             </div>
+            <a class="header-logo js-home-via-logo" href="#" style="margin-top: 5px;">
+                <span class="header-logo-loading"></span>
+                <span class="header-logo-default"></span>
+            </a>
             <ul class="nav navbar-nav navbar-right" id="navRight">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle nav-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         <em class="glyphicon glyphicon-plus"></em>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
+                        <li><a href="#"><span class="pop-over-header-title js-fill-pop-over-title">Create</span></a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
                         <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -116,7 +118,7 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#"><em class="glyphicon glyphicon-star-empty"></em></a></li>
+                <li><a href="#" id="start"><em class="glyphicon glyphicon-star-empty"></em></a></li>
                 <li>
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
